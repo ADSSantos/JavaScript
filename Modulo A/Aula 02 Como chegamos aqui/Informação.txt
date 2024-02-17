@@ -1,0 +1,5 @@
+  A internet que temos hoje ,surgiu nos anos 1970 em função da guerra.
+em 1993 surgiu o html,http,www.
+Tambem surgiu o primeiro navegador o mosacle.
+em 1995 nasce o java script.
+em 1997 acma padroniza o JS.

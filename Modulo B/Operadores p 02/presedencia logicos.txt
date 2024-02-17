@@ -1,0 +1,3 @@
+primeiro ! (não)
+segundo && (E)
+terceiro || (ou)

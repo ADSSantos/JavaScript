@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX01</title>
+    <style> 
+      body {
+        background-color: rgb(76, 160, 90);
+        color: rgb(224, 221, 215);
+        font-size: 18px Arial;
+      }
+    </style>
+</head>
+<body>
+    <h1>ola, mundo!!</h1>
+    <p>Ja me livrei..</p>
+
+    <script>
+      var nome = window.prompt("Qual é o seu nome?")
+
+      window.alert("Bem vindo, " + nome);//concatenização
+       
+        
+        
+    </script>
+</body>
+</html>
+
+como converter string para número
+para numeros inteiros usa se Number.parseInt(n)
+para numeros reais usa se Number.parseFloat(n)
+paraospreguiças apenas Number(n)
+
+para converter número para string
+String(n)
+n.toString()
+
+Exemplo
+
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX01</title>
+    <style> 
+      body {
+        background-color: rgb(76, 160, 90);
+        color: rgb(224, 221, 215);
+        font-size: 18px Arial;
+      }
+    </style>
+</head>
+<body>
+    <h1>ola, mundo!!</h1>
+    <p>Ja me livrei..</p>
+   
+
+    <script>
+      
+      var n1 = Number.parseInt(window.prompt("digite um numero"))
+
+      var n2 = Number.parseInt(window.prompt("digite outro numero"))
+
+      var soma = n1 + n2
+      window.alert("A soma dos valores é " + soma)
+
+
+        
+    </script>
+
+ao invés da concatenação usa-se essa formula template string! `${}`
+</body>
+</html>
+
+> nome = "Didi"
+'Didi'
+> idade = 38
+38
+> nota = 9.9
+9.9
+>
+> "O aluno " + nome + " com idade " + idade +  " nota maxima " + nota
+'O aluno Didi com idade 38 nota maxima 9.9'
+> `O aluno ${nome} com ${idade} anos, Tirou ${nota}`
+'O aluno Didi com 38 anos, Tirou 9.9'
+
+Podemos tambm usar s.length para contar quantas letras tem uma string
+para deixar MAIUSCULO usamos s.toUpperCase()
+para deixar MINUSCULO usamos s.toLowerCase()
+
+para formatar numeros usa-se 
+> var n1 = 1545.5
+undefined
+> n1
+1545.5
+> n1.tofixed
+undefined
+> n1.toFixed(2)
+'1545.50'
+> n1.toLocaleString("Pt-BR" ,{style: "currency", currency: "BRL"})
+'R$ 1.545,50'
+>
+
+
+
+
+
+
+
+
+
