@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: rgb(127, 255, 255);
+
+        }
+
+        p , div{
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudo com DOM</h1>
+    
+    <p >Aqui vai o resultado</p> 
+    <p>Aprendendo a usar o <strong>DOM</strong> em J.s </p>
+    <p class="p_1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ad in consectetur voluptates, eligendi mollitia sequi debitis? Vero, dolorem inventore? Harum maxime esse debitis quis quos, perspiciatis beatae repellat velit.</p>
+
+    <div>click em mim</div>
+
+
+    <script>
+        /*window.document.write("ola,mundo")
+        var corpo = window.document.body
+        var pragrafo_1 = window.document.getElementsByTagName("p")[1]
+        window.document.write(pragrafo_1.innerHTML)
+        pragrafo_1.style.color ="blue"
+
+        corpo.style.background="white"
+       
+        var p_1 = window.document.getElementById("p_1")
+        p_1.style.background = "pink"
+        p_1.innerHTML="modifiquei o paragrafo"
+        window.document.getElementById("p_1").innerHTML="outra modificação" 
+
+
+        var p_1= window.document.getElementsByName("p_1")[0]
+        p_1.style.color = "blue"
+        p_1.style.background = "white"*/
+
+        var p_1 = window.document.querySelector("p.p_1")
+        p_1.style.color = "gray"
+        p_1.style.background = "black"
+       
+
+
+
+
+    </script>
+</body>
+</html>

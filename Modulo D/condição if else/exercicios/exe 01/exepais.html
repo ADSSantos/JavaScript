@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de paises</title>
+</head>
+<body>
+    <h1>Informe o pais de Origem!</h1>
+    Pais: <input type="text" id="txtpais">
+    <input type="button" value="GO" onclick="clicar()">
+
+    <div id="result"></div>
+
+    <script>
+        function clicar() {
+            var verif = window.document.querySelector("input#txtpais")
+            var result = window.document.querySelector("div#result")
+            var br= (txtpais.value)
+            
+            result.innerHTML=`Bem vindo ! `
+
+            if(br === "Brasil") {
+                result.innerHTML = `PERIGO`
+            }
+            
+           
+           
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual sua idade?</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body class="container">
+    <h2>Digita o ano de nascimento <br>
+         para verificar a maioridade!</h2>
+
+         <p>Qual seu ano de nascimento?</p>
+         <input type="number" name="number" id="cxa_ent">
+
+         <input id="btn" type="button" value="Verificar" onclick="verificar()">
+
+         <div id="result"></div>
+
+
+
+         <script>
+            function verificar() {
+                var ano_nasc = parseInt(window.document.getElementById("cxa_ent").value);
+                var result = window.document.getElementById("result");
+
+                var ano_atual = 2024;
+                var idade = ano_atual - ano_nasc;
+
+                if (idade >= 18) {
+                     result.innerHTML = "Maior de 18 anos";
+                } else {
+                     result.innerHTML = "Menor de 18 anos";
+  }
+
+ 
+             function calcularIdade(ano_nasc) {
+            var ano_atual = 2024;
+            var idade = ano_atual - ano_nasc;
+            return idade;
+  }
+
+ 
+             var userAge = calcularIdade(ano_nasc);
+            result.innerHTML += "<br>Idade: " + userAge + " anos";
+}
+            
+        </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+button {
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
+    margin-left: 300px;
+    margin-top: 300px;
+    
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    background-color:burlywood
+    ;
+}
