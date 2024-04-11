@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual sua idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade!</h1>
+    </header>
+    <section>
+        <div id="div01">
+            <label for="idade" id="lab1">Ano de nascimento:</label>
+            <input type="text" id="idade">
+
+            <label for="sex" id="lab2">Sexo:</label>
+            <input type="radio" name="sexo" id="sexo_m"> Masculino
+            <input type="radio" name="sexo" id="sexo_f"> Feminino 
+
+            <br>
+
+            <button onclick="calcularIdade()">Verificar</button>
+
+            <p id="result">Preencha os dados acima para ver o resultado!</p>
+            <p id="sexo"></p>
+            
+        </div>
+
+
+    </section>
+    
+    <footer>Adriano_DEV</footer>
+
+
+
+
+
+    <script src="cod.js"></script>
+</body>
+</html>

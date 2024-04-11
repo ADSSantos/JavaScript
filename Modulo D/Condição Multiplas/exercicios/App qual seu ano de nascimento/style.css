@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:  10px bold;
+    text-align: justify;
+}
+
+body {
+    background-color: #010626;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+  
+
+h1 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 90px;
+    background-color: #57c5f8;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 2px;
+    
+
+    
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: #00ccd6;
+    background-image: linear-gradient(160deg,#253C59,#99B4BF );
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+
+
+div#div01 {
+    margin-left: 70px;
+    background-color: #99B4BF;
+    width: 300px;
+    height: 170px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.616);
+}
+
+label#lab1 {
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+
+label#lab2 {
+    padding: 10px;
+    margin-left: 1px;
+    
+    
+}
+
+input#idade {
+    width: 70px;
+    height: 15px;
+    border-radius: 1px;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+
+input#sexo {
+    margin-top: 15px;
+}
+
+
+button {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 130px;
+    height: 30px;
+    border-radius: 4px #99B4BF;
+    background-color:#aad8eb;
+}
+
+button:hover {
+    background-color: #57c5f8;
+    
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+
+span#result {
+    text-align: center;
+    margin-top: 75%;
+    font-size: 0.8em;
+    
+    
+    
+    
+}
+
+footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(87, 197, 248);
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    margin-top: 3px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
