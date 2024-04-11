@@ -6,7 +6,7 @@
     <title>Qual sua idade</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body  onload="calcularIdade()">
     <header>
         <h1>Verificador de idade!</h1>
     </header>
@@ -16,16 +16,19 @@
             <input type="text" id="idade">
 
             <label for="sex" id="lab2">Sexo:</label>
-            <input type="radio" name="sexo" id="sexo_m"> Masculino
+            <input type="radio" name="sexo" id="sexo_m" checked> Masculino
             <input type="radio" name="sexo" id="sexo_f"> Feminino 
 
             <br>
 
-            <button onclick="calcularIdade()">Verificar</button>
+            <button onclick="calcular()">Verificar</button>
 
             <p id="result">Preencha os dados acima para ver o resultado!</p>
             <p id="sexo"></p>
             
+        </div>
+        <div id="foto">
+           
         </div>
 
 

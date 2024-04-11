@@ -42,7 +42,7 @@ section {
     background-color: #00ccd6;
     background-image: linear-gradient(160deg,#253C59,#99B4BF );
     width: 500px;
-    height: 400px;
+    height: 580px;
     margin: auto;
     margin-top: 3px;
     border-radius: 5px;
@@ -51,6 +51,7 @@ section {
 
 
 div#div01 {
+    position: absolute;
     margin-left: 70px;
     background-color: #99B4BF;
     width: 300px;
@@ -114,10 +115,21 @@ span#result {
     text-align: center;
     margin-top: 75%;
     font-size: 0.8em;
-    
-    
-    
-    
+}
+
+div#foto {
+  
+    align-items: center;
+    margin-top: 300px;
+    margin-right: 190px;
+    border-radius: 4px #99B4BF;
+   
+}
+
+img {
+    width: 290px;
+    height: 280px;
+    border-radius: 4px #99B4BF;
 }
 
 footer {
