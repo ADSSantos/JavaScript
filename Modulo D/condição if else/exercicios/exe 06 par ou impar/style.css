@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0PX;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+main {
+    position: absolute;
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 19%;
+    width: 600px;
+    height: 400px;
+}
+
+p {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.5em;
+}
+
+input#entrada {
+    margin-top: 100px;
+}
