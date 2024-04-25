@@ -7,12 +7,16 @@ while (contador <= 4) {
 }
 */
 
-/*let contador = 1
+let contador = 1
 do {
     console.log("ola")
     contador++
 }while(contador <= 6)
+
+/*
+NOTA: A diferença entre DO  while e While ,DO o While e verificado 
 */
+
 
 /*
 console.log("maneira mais dificio!")
