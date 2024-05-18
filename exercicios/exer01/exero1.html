@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Passos</title>
+    <link rel="stylesheet" href="appstyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar!</h1> <!-- Título principal da página -->
+    </header>
+
+    <main>
+        <section id="sec">
+            <div class="container">
+                <!-- Campo de entrada para o início da contagem -->
+                <div>
+                    <label for="inicio">Início:</label>
+                    <input id="inicio" type="number">
+                </div>
+                <!-- Campo de entrada para o fim da contagem -->
+                <div>
+                    <label for="fim">Fim:</label>
+                    <input id="fim" type="number">
+                </div>
+                <!-- Campo de entrada para o passo da contagem -->
+                <div>
+                    <label for="passo">Passo:</label>
+                    <input id="passo" type="number">
+                </div>
+                <!-- Botão para iniciar a contagem -->
+                <button id="btn" onclick="clicar()">Contar</button>
+                <!-- Botão para limpar os campos -->
+                <button id="btn_limp" onclick="limpar()">Limpar</button>
+                <!-- Elemento para exibir o resultado da contagem -->
+                <p id="result"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>Adriano_DEV</footer> <!-- Rodapé com o nome do desenvolvedor -->
+
+    <!-- Inclusão dos arquivos JavaScript -->
+    <script src="ap.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
