@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <head>
+        <h1>Mudando a Cor de fundo</h1>
+    </head>
+    <main>
+        
+            <label for="">Nome</label>
+            <input id="check" type="text" name="nome"  onclick="gravar()"> <br>
+           
+       
+
+        <button onclick="gravar()">gravar</button>
+
+    </main>
+</body>
+
+    <SCript>
+    
+    var vnome;
+
+
+        function defineCor (op,cor) {
+            if(op == 1) {
+                document.body.style.backgroundColor = cor
+
+                
+
+            }
+        }
+
+        function gravar () {
+            vnome = document.getElementById("check").value;
+            localStorage.vnome = vnome    
+
+            }
+
+            function carregar () {
+
+                //Verifica se há um item chamado 'vnome' armazenado no localStorage.
+                if (localStorage.getItem('vnome')) {
+                    
+                     //Se o item 'vnome' existir, atribui seu valor à variável vnome.
+                    vnome = localStorage.getItem('vnome');
+                   
+                    //Define o valor do elemento HTML com o ID "check" como o valor de vnome.
+                    document.getElementById("check").value = vnome;
+                }
+
+            }
+
+            document.addEventListener("DOMContentLoaded", carregar)
+    </SCript>
+
+</html>
